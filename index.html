@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html debug="ture" lang="zh_tw">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="。">
+<meta name="keywords" content="">
+<title>Inovative Collective</title>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript">var console = { log: function() {} };</script>
+<![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/lightcase.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scrolloverflow.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<!-- <script type="text/javascript" src="js/examples.js"></script> -->
+<script type="text/javascript" src="js/custom.js"></script>
+<link rel="shortcut icon" href="favicon.ico">
+
+<script>
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		anchors: ['Inco', 'What', 'Projects', 'Who', 'Contact',],
+		// sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff', '#2f0d8'],
+		// navigation: true,
+		// navigationPosition: 'right',
+		scrollOverflow:true,
+		responsiveWidth: 900,
+		afterResponsive: function(isResponsive){
+		}
+	});
+});
+//adding the actions to the buttons
+$(document).on("click", "#menu", function(){
+  $.fn.fullpage.setAllowScrolling(false);
+});
+$(document).on("click", "#menuon", function(){
+  $.fn.fullpage.setAllowScrolling(true);
+});
+</script>
+</head>
+
+<body>
+<!-- WRAPPER -->
+<div id="fullpage">
+	<!-- SECTION01 -->
+	<nav>
+		<ul class="container">
+			<div id="menuon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<li class="nav_left">
+				<ul>
+					<div class="logo"><h1><a href="javascript:;">INCO</a></h1></div>
+					<li class="nav_name">in-co</li>
+					<li class="nav_info">O. 886 2 2562 7402
+						<br/>W. in-co.studio
+						<br/>A. 10441 台北市中山區中山北路一段 135 巷 36 號 3 樓
+					</li>
+					<li class="nav_email">
+						<input type="text" placeholder="Your Email"><button type="btn">subscribe</button>
+					</li>
+				</li>
+				</ul>
+			</li>
+			<li class="nav_right">
+				<ul>
+					<li><a href="javascript:;">WHY / WHAT / WHO</a></li>
+					<li><a href="javascript:;">PROJECTS</a></li>
+					<li><a href="javascript:;">CONTACT</a></li>
+				</ul>
+			</li>
+		</ul>
+		<footer>
+			EN | 繁中<br/>
+			2018 in-co copyright
+		</footer>
+	</nav>
+	<div class="section " id="section0">
+		<div class="container">
+			<div class="logo"><h1><a href="javascript:;">INCO</a></h1></div>
+			<div class="i_lan">繁中</div>
+			<div id="menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<p class="i_des">in-co is all about innovating for<br/>sustainability in a collective<br/>effort.
+				<span>hi@in-co.studio :)</span>
+			</p>
+		</div>
+	</div>
+	<!--END SECTION01-->
+
+	<!-- SECTION02 -->
+	<div class="section" id="section1">
+		<div class="container">
+			<div class="title">What in-co offers ?</div>
+			<ul class="offer">
+				<li class="offer_list">
+					<ul>
+						<li>Design Research<span>Seek insights through contextualized research</span></li>
+						<li>Planning Solution<span>Tackling urban planning, community design, place marketing related design</span></li>
+						<li>Multi-disciplinary<span>Blurring the boundaries between space, design, data and technology</span></li>
+					</ul>
+				</li>
+				<li class="offer_list">
+					<ul>
+						<li>Research Design<span>practice design based on research-based processes</span></li>
+						<li>Spatial Solution<span>Using spatial programming and planning as solutions</span></li>
+						<li>Branding<span>new product or service branding strategy and design</span></li>
+					</ul>
+				</li>
+				<li class="offer_list">
+					<ul>
+						<li>Participatory<span>Involve communities to be part of the design processes through workshops or online</span></li>
+						<li>Multi-scale Design<span>Design not limited to singular scale</span></li>
+						<li>O2O strategy<span>bridging online and offline strategies to create impact within communities</span></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--END SECTION02-->
+
+	<!-- SECTION03 -->
+	<div class="section" id="section2">
+		<div class="container">
+			<div class="title">Projects</div>
+		</div>
+			<ul class="project">
+				<li class="project_list">
+					<ul>
+						<li class="project_photo">
+							<a href="javascript:;">
+								<span class="project_title">Chia Yi Railway<br/>Design for<br/>Citizens</span>
+								<div class="mask"></div>
+								<img src="images/img01.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="project_list">
+					<ul>
+						<li class="project_photo">
+							<a href="javascript:;">
+								<span class="project_title">Jiji Projects is<br/>all about<br/>innovative Design</span>
+								<div class="mask"></div>
+								<img src="images/img01.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="project_list">
+					<ul>
+						<li class="project_photo">
+							<a href="javascript:;">
+								<span class="project_title">Chia Yi Railway<br/>Design for<br/>Citizens</span>
+								<div class="mask"></div>
+								<img src="images/img01.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="project_list">
+					<ul>
+						<li class="project_photo">
+							<a href="javascript:;">
+								<span class="project_title">Chia Yi Railway<br/>Design for<br/>Citizens</span>
+								<div class="mask"></div>
+								<img src="images/img01.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		<div class="container">
+			<div class="title"><a href="javascript:;">MORE PROJECTS</a></div>
+		</div>
+	</div>
+	<!--END SECTION03-->
+
+	<!-- SECTION04 -->
+	<div class="section " id="section3">
+		<div class="container">
+			<div class="title">Who are in-co ?</div>
+			we are storytellers using space, design, data, and technology<br/>as the medium.
+			<p class="designer_des">in-co is a(n)
+				<span>designer</span>
+			</p>
+			<ul class="designer">
+				<li class="designer_list">
+					<ul>
+						<li class="designer_photo"><a href="javascript:;"><div class="mask"></div>
+						<img src="images/img01.jpg" alt="Jessica Lee"></a></li>
+						<li class="designer_title"><a href="javascript:;">Jessica Lee</a></li>
+						<li class="designer_job">Founder</li>
+					</ul>
+				</li>
+				<li class="designer_list">
+					<ul>
+						<li class="designer_photo"><a href="javascript:;"><div class="mask"></div>
+						<img src="images/img01.jpg" alt="Brad Hooks"></a></li>
+						<li class="designer_title"><a href="javascript:;">Brad Hooks</a></li>
+						<li class="designer_job">Design Lead</li>
+					</ul>
+				</li>
+				<li class="designer_list">
+					<ul>
+						<li class="designer_photo"><a href="javascript:;"><div class="mask"></div>
+						<img src="images/img01.jpg" alt="Modi Hung"></a></li>
+						<li class="designer_title"><a href="javascript:;">Modi Hung</a></li>
+						<li class="designer_job">Research Designer</li>
+					</ul>
+				</li>
+				<li class="designer_list">
+					<ul>
+						<li class="designer_photo"><a href="javascript:;"><div class="mask"></div>
+						<img src="images/img01.jpg" alt="Nobi Yo"></a></li>
+						<li class="designer_title"><a href="javascript:;">Nobi Yo</a></li>
+						<li class="designer_job">Research Designer</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--END SECTION04-->
+
+	<!-- SECTION05 -->
+	<div class="section" id="section4">
+		<div class="container">
+			<div class="title">Contact</div>
+			<p class="contact_des">Let's be crazy together!</p>
+			<ul class="contact_list">
+				<li>O. +886 2 2562-7402</li>
+				<li>W. in-co.studio</li>
+				<li>E. hi@in-co.studio</li>
+				<li>A. 台北市中山區中山北路一段135巷36號3樓</li>
+				<li><input class="contact_email" type="text" name="" placeholder="Email Address"></li>
+				<li><input class="contact_textarea" type="textarea" name="" placeholder="Let's have a disscussion !"></li>
+				<li><a href="javascript:;">SUBMIT</a></li>
+			</ul>
+		</div>
+		<div class="container_contact"></div>
+		<iframe class="contact_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4934184229032!2d121.52225361450637!3d25.051260183964345!z2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a96f493bde41%3A0x4261e980b8d3789a!2zMTA0OTHlj7DngaPlj7DljJfluILkuK3lsbHljYDkuK3lsbHljJfot6_kuIDmrrUxMzXlt7czNuiZnw!5e0!3m2!1szh-TW!2smy!4v1519796621513" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<!--END SECTION05-->
+</div>
+<!--END WRAPPWE-->
+
+</body>
+</html>
