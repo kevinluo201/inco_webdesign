@@ -28,8 +28,8 @@
 <script>
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		anchors: ['Inco', 'What', 'Projects', 'Who', 'Contact',],
-		// sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff', '#2f0d8'],
+		anchors: ['Inco', 'What', 'Projects', 'Who', 'Contact', 'Footer',],
+		sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff', '#f2efda'],
 		// navigation: true,
 		// navigationPosition: 'right',
 		scrollOverflow:true,
@@ -67,7 +67,7 @@ $(document).on("click", "#menuon", function(){
 			<li class="nav_left">
 				<ul>
 					<div class="logo"><h1><a href="javascript:;">INCO</a></h1></div>
-					<li class="nav_name">in-co</li>
+					<li class="nav_name">in-co<span class="nav_sns">ig:inco.studio</span></li>
 					<li class="nav_info">O. 886 2 2562 7402
 						<br/>W. in-co.studio
 						<br/>A. 10441 台北市中山區中山北路一段 135 巷 36 號 3 樓
@@ -80,9 +80,9 @@ $(document).on("click", "#menuon", function(){
 			</li>
 			<li class="nav_right">
 				<ul>
-					<li><a href="javascript:;">WHY / WHAT / WHO</a></li>
-					<li><a href="javascript:;">PROJECTS</a></li>
-					<li><a href="javascript:;">CONTACT</a></li>
+					<li><a href="javascript:;"><span>WHY / WHAT / WHO</span></a></li>
+					<li><a href="javascript:;"><span>PROJECTS</span></a></li>
+					<li><a href="javascript:;"><span>CONTACT</span></a></li>
 				</ul>
 			</li>
 		</ul>
@@ -139,54 +139,54 @@ $(document).on("click", "#menuon", function(){
 		<div class="container">
 			<div class="title">Projects</div>
 		</div>
-			<ul class="project">
+					<ul class="project">
 				<li class="project_list">
 					<ul>
+						<li class="project_title">
+							<a href="javascript:;"><span>Chia Yi Railway<br/>Design for<br/>Citizens</span></a>
+						</li>
 						<li class="project_photo">
-							<a href="javascript:;">
-								<span class="project_title">Chia Yi Railway<br/>Design for<br/>Citizens</span>
-								<div class="mask"></div>
-								<img src="images/img01.jpg" alt="">
-							</a>
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="">
 						</li>
 					</ul>
 				</li>
 				<li class="project_list">
 					<ul>
+						<li class="project_title">
+							<a href="javascript:;"><span>Jiji Projects is<br/>all about<br/>innovative</span></a>
+						</li>
 						<li class="project_photo">
-							<a href="javascript:;">
-								<span class="project_title">Jiji Projects is<br/>all about<br/>innovative Design</span>
-								<div class="mask"></div>
-								<img src="images/img01.jpg" alt="">
-							</a>
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="">
 						</li>
 					</ul>
 				</li>
 				<li class="project_list">
 					<ul>
+						<li class="project_title">
+							<a href="javascript:;"><span>Chia Yi Railway<br/>Design for<br/>Citizens</span></a>
+						</li>
 						<li class="project_photo">
-							<a href="javascript:;">
-								<span class="project_title">Chia Yi Railway<br/>Design for<br/>Citizens</span>
-								<div class="mask"></div>
-								<img src="images/img01.jpg" alt="">
-							</a>
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="">
 						</li>
 					</ul>
 				</li>
 				<li class="project_list">
 					<ul>
+						<li class="project_title">
+							<a href="javascript:;"><span>Chia Yi Railway<br/>Design for<br/>Citizens</span></a>
+						</li>
 						<li class="project_photo">
-							<a href="javascript:;">
-								<span class="project_title">Chia Yi Railway<br/>Design for<br/>Citizens</span>
-								<div class="mask"></div>
-								<img src="images/img01.jpg" alt="">
-							</a>
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="">
 						</li>
 					</ul>
 				</li>
 			</ul>
 		<div class="container">
-			<div class="title"><a href="javascript:;">MORE PROJECTS</a></div>
+			<div class="more"><a href="javascript:;"><span>MORE PROJECTS</span></a></div>
 		</div>
 	</div>
 	<!--END SECTION03-->
@@ -202,33 +202,41 @@ $(document).on("click", "#menuon", function(){
 			<ul class="designer">
 				<li class="designer_list">
 					<ul>
-						<li class="designer_photo"><a href="javascript:;"><div class="mask"></div>
-						<img src="images/img01.jpg" alt="Jessica Lee"></a></li>
-						<li class="designer_title"><a href="javascript:;">Jessica Lee</a></li>
+						<li class="designer_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="Jessica Lee">
+						</li>
+						<li class="designer_title"><span>Jessica Lee</span></li>
 						<li class="designer_job">Founder</li>
 					</ul>
 				</li>
 				<li class="designer_list">
 					<ul>
-						<li class="designer_photo"><a href="javascript:;"><div class="mask"></div>
-						<img src="images/img01.jpg" alt="Brad Hooks"></a></li>
-						<li class="designer_title"><a href="javascript:;">Brad Hooks</a></li>
+						<li class="designer_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="Brad Hooks">
+						</li>
+						<li class="designer_title"><a href="javascript:;"><span>Brad Hooks</span></a></li>
 						<li class="designer_job">Design Lead</li>
 					</ul>
 				</li>
 				<li class="designer_list">
 					<ul>
-						<li class="designer_photo"><a href="javascript:;"><div class="mask"></div>
-						<img src="images/img01.jpg" alt="Modi Hung"></a></li>
-						<li class="designer_title"><a href="javascript:;">Modi Hung</a></li>
+						<li class="designer_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="Modi Hung">
+						</li>
+						<li class="designer_title"><a href="javascript:;"><span>Modi Hung</span></a></li>
 						<li class="designer_job">Research Designer</li>
 					</ul>
 				</li>
 				<li class="designer_list">
 					<ul>
-						<li class="designer_photo"><a href="javascript:;"><div class="mask"></div>
-						<img src="images/img01.jpg" alt="Nobi Yo"></a></li>
-						<li class="designer_title"><a href="javascript:;">Nobi Yo</a></li>
+						<li class="designer_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="Nobi Yo">
+						</li>
+						<li class="designer_title"><a href="javascript:;"><span>Nobi Yo</span></a></li>
 						<li class="designer_job">Research Designer</li>
 					</ul>
 				</li>
@@ -253,240 +261,271 @@ $(document).on("click", "#menuon", function(){
 			</ul>
 		</div>
 		<div class="container_contact"></div>
-		<div class="contact_map" id="map"></div>
-	</div>
-	<script>
-		function initMap() {
+    <div class="contact_map" id="map"></div>
+    <script>
+      function initMap() {
+          // Create a new StyledMapType object, passing it an array of styles,
+          // and the name to be displayed on the map type control.
+          var styledMapType = new google.maps.StyledMapType(
+              [
+                {
+                  "featureType": "administrative.land_parcel",
+                  "elementType": "labels",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "landscape.man_made",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "landscape.natural",
+                  "elementType": "geometry.fill",
+                  "stylers": [
+                    {
+                      "color": "#e8e7db"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "poi",
+                  "elementType": "geometry.fill",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "poi",
+                  "elementType": "labels",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "poi.business",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "poi.park",
+                  "elementType": "labels.text",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road",
+                  "elementType": "geometry.stroke",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road.arterial",
+                  "elementType": "geometry.fill",
+                  "stylers": [
+                    {
+                      "color": "#ccd0bd"
+                    },
+                    {
+                      "weight": 6
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road.arterial",
+                  "elementType": "labels.text.fill",
+                  "stylers": [
+                    {
+                      "color": "#aeaa82"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road.arterial",
+                  "elementType": "labels.text.stroke",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road.highway",
+                  "elementType": "geometry.fill",
+                  "stylers": [
+                    {
+                      "color": "#b5ba9e"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road.highway",
+                  "elementType": "geometry.stroke",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road.highway",
+                  "elementType": "labels",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road.local",
+                  "elementType": "geometry.fill",
+                  "stylers": [
+                    {
+                      "color": "#d5d7c8"
+                    },
+                    {
+                      "weight": 2.5
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road.local",
+                  "elementType": "labels.text",
+                  "stylers": [
+                    {
+                      "color": "#aba77c"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road.local",
+                  "elementType": "labels.text.fill",
+                  "stylers": [
+                    {
+                      "color": "#b9b695"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "road.local",
+                  "elementType": "labels.text.stroke",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "transit",
+                  "elementType": "labels.text.fill",
+                  "stylers": [
+                    {
+                      "color": "#837d54"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "transit",
+                  "elementType": "labels.text.stroke",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                },
+                {
+                  "featureType": "transit.line",
+                  "elementType": "geometry",
+                  "stylers": [
+                    {
+                      "weight": 1.5
+                    }
+                  ]
+                },
+                {
+                  "featureType": "transit.station.bus",
+                  "elementType": "labels",
+                  "stylers": [
+                    {
+                      "visibility": "off"
+                    }
+                  ]
+                }
+              ],
+              {name: 'Styled Map'});
 
-        // Create a new StyledMapType object, passing it an array of styles,
-        // and the name to be displayed on the map type control.
-        var styledMapType = new google.maps.StyledMapType(
-            [
-              {
-                "featureType": "administrative.land_parcel",
-                "elementType": "labels",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "landscape.man_made",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "landscape.natural",
-                "elementType": "geometry.fill",
-                "stylers": [
-                  {
-                    "color": "#e8e7db"
-                  }
-                ]
-              },
-              {
-                "featureType": "poi",
-                "elementType": "geometry.fill",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "poi",
-                "elementType": "labels",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "poi.business",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "poi.park",
-                "elementType": "labels.text",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "road",
-                "elementType": "geometry.stroke",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "road.arterial",
-                "elementType": "geometry.fill",
-                "stylers": [
-                  {
-                    "color": "#ccd0bd"
-                  },
-                  {
-                    "weight": 6
-                  }
-                ]
-              },
-              {
-                "featureType": "road.arterial",
-                "elementType": "labels.text.fill",
-                "stylers": [
-                  {
-                    "color": "#aeaa82"
-                  }
-                ]
-              },
-              {
-                "featureType": "road.arterial",
-                "elementType": "labels.text.stroke",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "road.highway",
-                "elementType": "geometry.fill",
-                "stylers": [
-                  {
-                    "color": "#b5ba9e"
-                  }
-                ]
-              },
-              {
-                "featureType": "road.highway",
-                "elementType": "geometry.stroke",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "road.highway",
-                "elementType": "labels",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "road.local",
-                "elementType": "geometry.fill",
-                "stylers": [
-                  {
-                    "color": "#d5d7c8"
-                  },
-                  {
-                    "weight": 2.5
-                  }
-                ]
-              },
-              {
-                "featureType": "road.local",
-                "elementType": "labels.text",
-                "stylers": [
-                  {
-                    "color": "#aba77c"
-                  }
-                ]
-              },
-              {
-                "featureType": "road.local",
-                "elementType": "labels.text.fill",
-                "stylers": [
-                  {
-                    "color": "#b9b695"
-                  }
-                ]
-              },
-              {
-                "featureType": "road.local",
-                "elementType": "labels.text.stroke",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "transit",
-                "elementType": "labels.text.fill",
-                "stylers": [
-                  {
-                    "color": "#837d54"
-                  }
-                ]
-              },
-              {
-                "featureType": "transit",
-                "elementType": "labels.text.stroke",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              },
-              {
-                "featureType": "transit.line",
-                "elementType": "geometry",
-                "stylers": [
-                  {
-                    "weight": 1.5
-                  }
-                ]
-              },
-              {
-                "featureType": "transit.station.bus",
-                "elementType": "labels",
-                "stylers": [
-                  {
-                    "visibility": "off"
-                  }
-                ]
-              }
-            ],
-            {name: 'Styled Map'});
+          // Create a map object, and include the MapTypeId to add
+          // to the map type control.
+          var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 25.05132, lng: 121.5244727},
+            zoom: 14,
+            mapTypeControlOptions: {
+              mapTypeIds: []
+            },
+            streetViewControl: false
+          });
 
-        // Create a map object, and include the MapTypeId to add
-        // to the map type control.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 25.05132, lng: 121.5244727},
-          zoom: 14,
-          mapTypeControlOptions: {
-            mapTypeIds: []
-          },
-          streetViewControl: false
-        });
-
-        //Associate the styled map with the MapTypeId and set it to display.
-        map.mapTypes.set('styled_map', styledMapType);
-        map.setMapTypeId('styled_map');
+          //Associate the styled map with the MapTypeId and set it to display.
+          map.mapTypes.set('styled_map', styledMapType);
+          map.setMapTypeId('styled_map');
       }
-	</script>
+    </script>
 
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBysNAjXkfO3Nn2xewAAQlI8JMYaw0jlOE&callback=initMap">
-  </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBysNAjXkfO3Nn2xewAAQlI8JMYaw0jlOE&callback=initMap">
+    </script>
+	</div>
 	<!--END SECTION05-->
+
+	<!-- SECTION06 -->
+	<div class="section" id="section4">
+		<ul class="container">
+			<li class="nav_left">
+				<ul>
+					<div class="logo"><h1><a href="javascript:;">INCO</a></h1></div>
+					<li class="nav_name">in-co<span class="nav_sns">ig:inco.studio</span></li>
+					<li class="nav_info">O. 886 2 2562 7402
+						<br/>W. in-co.studio
+						<br/>A. 10441 台北市中山區中山北路一段 135 巷 36 號 3 樓
+					</li>
+					<li class="nav_email">
+						<input type="text" placeholder="Your Email"><button type="btn">subscribe</button>
+					</li>
+				</li>
+				</ul>
+			</li>
+			<li class="nav_right">
+				<ul>
+					<li><a href="javascript:;"><span>WHY / WHAT / WHO</span></a></li>
+					<li><a href="javascript:;"><span>PROJECTS</span></a></li>
+					<li><a href="javascript:;"><span>CONTACT</span></a></li>
+				</ul>
+			</li>
+		</ul>
+		<footer>
+			EN | 繁中<br/>
+			2018 in-co copyright
+		</footer>
+	</div>
+	<!--END SECTION06-->
 </div>
 <!--END WRAPPWE-->
 
