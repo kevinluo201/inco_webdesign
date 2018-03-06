@@ -702,7 +702,7 @@ body { font: normal 16px/1.6 Helvetica, "微軟正黑體", sans-serif; color: #5
 .table .table_row { display: table-row; }
 .table .table_row .table_cell { display: table-cell; vertical-align: middle; }
 
-#menu { width: 30px; height: 20px; cursor: pointer; position: absolute; top: 33px; right: 30px; text-align: center; }
+#menu { width: 30px; height: 20px; cursor: pointer; position: fixed; top: 33px; right: 30px; z-index: 9997; text-align: center; }
 #menu span { width: 30px; height: 2px; background: #566746; transition: all 1s; -webkit-transition: all 1s; -moz-transition: all 1s; position: absolute; overflow: hidden; }
 #menu span:nth-child(1) { animation: span-first-off 0.5s ease-in-out forwards; -webkit-animation: span-first-off 0.5s ease-in-out forwards; -moz-animation: span-first-off 0.5s ease-in-out forwards; }
 #menu span:nth-child(2) { animation: span-second-off 0.5s ease-in-out forwards; -webkit-animation: span-second-off 0.5s ease-in-out forwards; -moz-animation: span-second-off 0.5s ease-in-out forwards; }
@@ -714,7 +714,7 @@ body { font: normal 16px/1.6 Helvetica, "微軟正黑體", sans-serif; color: #5
 #menuon span:nth-child(2) { animation: span-second-on 0.5s ease-in-out forwards; -webkit-animation: span-second-on 0.5s ease-in-out forwards; -moz-animation: span-second-on 0.5s ease-in-out forwards; }
 #menuon span:nth-child(3) { animation: span-third-on 0.5s ease-in-out forwards; -webkit-animation: span-third-on 0.5s ease-in-out forwards; -moz-animation: span-third-on 0.5s ease-in-out forwards; }
 
-nav { width: 100%; height: 100%; background: #f2efda; display: none; position: fixed; z-index: 998; }
+nav { width: 100%; height: 100%; background: #f2efda; display: none; position: fixed; z-index: 9998; }
 nav .container { margin-top: calc(50% - 500px); }
 nav .nav_left { width: 50%; }
 nav .nav_left li { margin-bottom: 30px; }
@@ -728,9 +728,9 @@ nav .nav_right li:hover:after { width: 100%; transition: all 0.3s; -webkit-trans
 
 footer { width: 100%; font-size: 12px; text-align: center; position: absolute; bottom: 30px; }
 
-.logo { background: url(../images/logo.png) no-repeat center right; width: 68px; /* height:image-height('../images/logo.png'); */ position: absolute; top: 30px; left: 30px; }
+.logo { background: url(../images/logo.png) no-repeat center right; width: 68px; /* height:image-height('../images/logo.png'); */ position: fixed; top: 30px; left: 30px; z-index: 9999; }
 
-.i_lan { font-size: 12px; position: absolute; top: 30px; right: 90px; }
+.lan { font-size: 12px; position: fixed; top: 30px; right: 90px; z-index: 9999; }
 
 .i_des { max-width: 900px; font-size: 60px; }
 .i_des span { font-size: 16px; display: block; }
