@@ -24,17 +24,27 @@
 <!-- <script type="text/javascript" src="js/examples.js"></script> -->
 <script type="text/javascript" src="js/custom.js"></script>
 <link rel="shortcut icon" href="favicon.ico">
-
+<script src="js/tweening.js"></script>
 <script>
+	var page_change_interval = 700; // the scrollingSpeed
+
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		anchors: ['Inco', 'What', 'Projects', 'Who', 'Contact', 'Footer',],
 		sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff', '#f2efda'],
-		// navigation: true,
-		// navigationPosition: 'right',
-		scrollOverflow:true,
-		responsiveWidth: 900,
-		afterResponsive: function(isResponsive){
+		scrollingSpeed: page_change_interval,
+		scrollOverflow: true,
+		onLeave: function(index, nextIndex, direction){
+			//after leaving section 2
+			if(index == 2 && direction =='up'){
+				percentDirection = -100 / (page_change_interval / 10.0);
+				startAnime();
+			}
+
+			if(index == 1 && direction =='down'){
+				percentDirection = 100 / (page_change_interval / 10.0);
+				startAnime();
+			}
 		}
 	});
 });
@@ -46,10 +56,12 @@ $(document).on("click", "#menuon", function(){
   $.fn.fullpage.setAllowScrolling(true);
 });
 </script>
+
 </head>
 
 <body>
 <!-- WRAPPER -->
+	<canvas id="canvas"></canvas>
 	<div class="logo"><h1><a href="javascript:;">INCO</a></h1></div>
 	<div class="lan"><a href="javascript:;">繁中</a></div>
 	<div id="menu">
@@ -91,7 +103,6 @@ $(document).on("click", "#menuon", function(){
 			2018 in-co copyright
 		</footer>
 	</nav>
-
 <div id="fullpage">
 	<!-- SECTION01 -->
 	<div class="section " id="section0">
