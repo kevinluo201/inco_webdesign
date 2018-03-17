@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html debug="ture" lang="zh_tw">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="。">
+<meta name="keywords" content="">
+<title>Inovative Collective</title>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript">var console = { log: function() {} };</script>
+<![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/lightcase.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scrolloverflow.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<!-- <script type="text/javascript" src="js/examples.js"></script> -->
+<script type="text/javascript" src="js/custom.js"></script>
+<link rel="shortcut icon" href="favicon.ico">
+
+<script>
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		anchors: ['Contact', 'Footer'],
+		sectionsColor: ['#fff', '#f2efda'],
+		scrollOverflow:true,
+		responsiveWidth: 900,
+		afterResponsive: function(isResponsive){
+		}
+	});
+});
+//adding the actions to the buttons
+$(document).on("click", "#menu", function(){
+  $.fn.fullpage.setAllowScrolling(false);
+});
+$(document).on("click", "#menuon", function(){
+  $.fn.fullpage.setAllowScrolling(true);
+});
+</script>
+</head>
+
+<body>
+<!-- WRAPPER -->
+	<div class="logo"><h1><a href="index.html">INCO</a></h1></div>
+	<div class="lan"><a href="javascript:;">繁中</a></div>
+	<div id="menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<nav>
+		<ul class="container container_conatct">
+			<div id="menuon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<li class="nav_left col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<div class="logo"><h1><a href="javascript:;">INCO</a></h1></div>
+					<li class="nav_name">in-co<span class="nav_sns">ig:inco.studio</span></li>
+					<li class="nav_info">O. 886 2 2562 7402
+						<br/>W. in-co.studio
+						<br/>A. 10441 台北市中山區中山北路一段 135 巷 36 號 3 樓
+					</li>
+					<li class="nav_email">
+						<input type="text" placeholder="Your Email"><button type="btn">subscribe</button>
+					</li>
+				</li>
+				</ul>
+			</li>
+			<li class="nav_right col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<li><a href="about.html"><span>WHY / WHAT / WHO</span></a></li>
+					<li><a href="project.html"><span>PROJECTS</span></a></li>
+					<li><a href="contact.html"><span>CONTACT</span></a></li>
+				</ul>
+			</li>
+		</ul>
+		<footer>
+			EN | 繁中<br/>
+			2018 in-co copyright
+		</footer>
+	</nav>
+
+<div id="fullpage">
+	<!-- SECTION01 -->
+	<div class="section" id="section0">
+		<div class="container">
+			<div class="title">PROJECTS</div>
+			<p class="project_des"><a href="javascript:;"><span>all</span></a><a href="javascript:;"><span>space</span></a><a href="javascript:;"><span>research</span></a><a href="javascript:;"><span>experience</span></a><a href="javascript:;"><span>communication</span></a></p>
+		</div>
+			<ul class="project">
+				<li class="project_list col-md-6 col-xs-12 bootstrap_default">
+					<ul>
+						<li class="project_title">
+							<a href="project_detail.html"><span>Chia Yi Railway<br/>Design for<br/>Citizens</span></a>
+						</li>
+						<li class="project_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="">
+						</li>
+					</ul>
+				</li>
+				<li class="project_list col-md-6 col-xs-12 bootstrap_default">
+					<ul>
+						<li class="project_title">
+							<a href="project_detail.html"><span>Jiji Projects is<br/>all about<br/>innovative</span></a>
+						</li>
+						<li class="project_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="">
+						</li>
+					</ul>
+				</li>
+				<li class="project_list col-md-6 col-xs-12 bootstrap_default">
+					<ul>
+						<li class="project_title">
+							<a href="project_detail.html"><span>Chia Yi Railway<br/>Design for<br/>Citizens</span></a>
+						</li>
+						<li class="project_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="">
+						</li>
+					</ul>
+				</li>
+				<li class="project_list col-md-6 col-xs-12 bootstrap_default">
+					<ul>
+						<li class="project_title">
+							<a href="project_detail.html"><span>Chia Yi Railway<br/>Design for<br/>Citizens</span></a>
+						</li>
+						<li class="project_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="">
+						</li>
+					</ul>
+				</li>
+			</ul>
+	</div>
+	<!--END SECTION01-->
+
+	<!-- SECTION02 -->
+	<div class="section" id="section1">
+		<ul class="container">
+			<li class="nav_left col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<li class="nav_name">in-co<span class="nav_sns"><a href="https://www.instagram.com/inco.studio/ ">ig:inco.studio</a></span></li>
+					<li class="nav_info">O. 886 2 2562 7402
+						<br/>W. in-co.studio
+						<br/>A. 10441 台北市中山區中山北路一段 135 巷 36 號 3 樓
+					</li>
+					<li class="nav_email">
+						<input type="text" placeholder="Your Email"><button type="btn">subscribe</button>
+					</li>
+				</li>
+				</ul>
+			</li>
+			<li class="nav_right col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<li><a href="about.html"><span>WHY / WHAT / WHO</span></a></li>
+					<li><a href="project.html"><span>PROJECTS</span></a></li>
+					<li><a href="contact.html"><span>CONTACT</span></a></li>
+				</ul>
+			</li>
+		</ul>
+		<footer>
+			EN | 繁中<br/>
+			2018 in-co copyright
+		</footer>
+	</div>
+	<!--END SECTION02-->
+</div>
+<!--END WRAPPWE-->
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html debug="ture" lang="zh_tw">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="。">
+<meta name="keywords" content="">
+<title>Inovative Collective</title>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript">var console = { log: function() {} };</script>
+<![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/lightcase.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scrolloverflow.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<!-- <script type="text/javascript" src="js/examples.js"></script> -->
+<script type="text/javascript" src="js/custom.js"></script>
+<link rel="shortcut icon" href="favicon.ico">
+
+<script>
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		sectionsColor: ['#fff', '#fff', '#fff', '#f2efda'],
+		scrollOverflow:true,
+		responsiveWidth: 900,
+		afterResponsive: function(isResponsive){
+		}
+	});
+});
+//adding the actions to the buttons
+$(document).on("click", "#menu", function(){
+  $.fn.fullpage.setAllowScrolling(false);
+});
+$(document).on("click", "#menuon", function(){
+  $.fn.fullpage.setAllowScrolling(true);
+});
+</script>
+</head>
+
+<body>
+<!-- WRAPPER -->
+	<div class="logo"><h1><a href="index.html">INCO</a></h1></div>
+	<div class="lan"><a href="javascript:;">繁中</a></div>
+	<div id="menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<nav>
+		<ul class="container container_conatct">
+			<div id="menuon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<li class="nav_left col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<div class="logo"><h1><a href="javascript:;">INCO</a></h1></div>
+					<li class="nav_name">in-co<span class="nav_sns">ig:inco.studio</span></li>
+					<li class="nav_info">O. 886 2 2562 7402
+						<br/>W. in-co.studio
+						<br/>A. 10441 台北市中山區中山北路一段 135 巷 36 號 3 樓
+					</li>
+					<li class="nav_email">
+						<input type="text" placeholder="Your Email"><button type="btn">subscribe</button>
+					</li>
+				</li>
+				</ul>
+			</li>
+			<li class="nav_right col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<li><a href="about.html"><span>WHY / WHAT / WHO</span></a></li>
+					<li><a href="project.html"><span>PROJECTS</span></a></li>
+					<li><a href="contact.html"><span>CONTACT</span></a></li>
+				</ul>
+			</li>
+		</ul>
+		<footer>
+			EN | 繁中<br/>
+			2018 in-co copyright
+		</footer>
+	</nav>
+
+<div id="fullpage">
+	<!-- SECTION01 -->
+	<div class="section" id="section0">
+		<div class="container">
+			<p class="about_des">WHY / WHAT / WHO</p>
+		</div>
+		<ul class="about_section01">
+			<div class="container">
+				<li class="i_title">Why in-co?</li>
+				<li class="i_des">Innovative
+					<span>in-co believes in providing innovative solutions with<br/>
+	local insights tackling global problems</span>
+				</li>
+			</div>
+		</ul>
+	</div>
+	<!--END SECTION01-->
+
+	<!-- SECTION02 -->
+	<div class="section" id="section1">
+		<div class="container">
+			<div class="i_title">What in-co offers ?</div>
+			<ul class="offer">
+				<li class="offer_list col-md-4 col-xs-12 bootstrap_default">
+					<ul>
+						<li>Design Research<span>Seek insights through contextualized research</span></li>
+						<li>Planning Solution<span>Tackling urban planning, community design, place marketing related design</span></li>
+						<li>Multi-disciplinary<span>Blurring the boundaries between space, design, data and technology</span></li>
+					</ul>
+				</li>
+				<li class="offer_list col-md-4 col-xs-12 bootstrap_default">
+					<ul>
+						<li>Research Design<span>practice design based on research-based processes</span></li>
+						<li>Spatial Solution<span>Using spatial programming and planning as solutions</span></li>
+						<li>Branding<span>new product or service branding strategy and design</span></li>
+					</ul>
+				</li>
+				<li class="offer_list col-md-4 col-xs-12 bootstrap_default">
+					<ul>
+						<li>Participatory<span>Involve communities to be part of the design processes through workshops or online</span></li>
+						<li>Multi-scale Design<span>Design not limited to singular scale</span></li>
+						<li>O2O strategy<span>bridging online and offline strategies to create impact within communities</span></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--END SECTION02-->
+
+	<!-- SECTION03 -->
+	<div class="section " id="section2">
+		<div class="container">
+			<div class="i_title">Who are in-co ?</div>
+			we are storytellers using space, design, data, and technology<br/>as the medium.
+			<p class="designer_des">in-co is a(n)
+				<span>designer</span>
+			</p>
+			<ul class="designer">
+				<li class="designer_list col-md-3 col-xs-12 bootstrap_default">
+					<ul>
+						<li class="designer_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="Jessica Lee">
+						</li>
+						<li class="designer_title" data-toggle="modal" data-target=".bs-example-modal-lg"><a href="javascript:;"><span>Jessica Lee</span></a></li>
+						<li class="designer_job">Founder</li>
+					</ul>
+				</li>
+				<li class="designer_list col-md-3 col-xs-12 bootstrap_default">
+					<ul>
+						<li class="designer_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="Brad Hooks">
+						</li>
+						<li class="designer_title" data-toggle="modal" data-target=".bs-example-modal-lg"><a href="javascript:;"><span>Brad Hooks</span></a></li>
+						<li class="designer_job">Design Lead</li>
+					</ul>
+				</li>
+				<li class="designer_list col-md-3 col-xs-12 bootstrap_default">
+					<ul>
+						<li class="designer_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="Modi Hung">
+						</li>
+						<li class="designer_title" data-toggle="modal" data-target=".bs-example-modal-lg"><a href="javascript:;"><span>Modi Hung</span></a></li>
+						<li class="designer_job">Research Designer</li>
+					</ul>
+				</li>
+				<li class="designer_list col-md-3 col-xs-12 bootstrap_default">
+					<ul>
+						<li class="designer_photo">
+							<span class="mask"></span>
+							<img src="images/img01.jpg" alt="Nobi Yo">
+						</li>
+						<li class="designer_title" data-toggle="modal" data-target=".bs-example-modal-lg"><a href="javascript:;"><span>Nobi Yo</span></a></li>
+						<li class="designer_job">Research Designer</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--END SECTION03-->
+
+	<!-- SECTION04 -->
+	<div class="section" id="section3">
+		<ul class="container">
+			<li class="nav_left col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<li class="nav_name">in-co<span class="nav_sns"><a href="https://www.instagram.com/inco.studio/ ">ig:inco.studio</a></span></li>
+					<li class="nav_info">O. 886 2 2562 7402
+						<br/>W. in-co.studio
+						<br/>A. 10441 台北市中山區中山北路一段 135 巷 36 號 3 樓
+					</li>
+					<li class="nav_email">
+						<input type="text" placeholder="Your Email"><button type="btn">subscribe</button>
+					</li>
+				</li>
+				</ul>
+			</li>
+			<li class="nav_right col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<li><a href="about.html"><span>WHY / WHAT / WHO</span></a></li>
+					<li><a href="project.html"><span>PROJECTS</span></a></li>
+					<li><a href="contact.html"><span>CONTACT</span></a></li>
+				</ul>
+			</li>
+		</ul>
+		<footer>
+			EN | 繁中<br/>
+			2018 in-co copyright
+		</footer>
+	</div>
+
+</button>
+	<!--END SECTION04-->
+</div>
+<!--END WRAPPWE-->
+
+<!-- LIGHTBOX -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <ul>
+      	<li class="d_dot"></li>
+      	<li class="d_name"><span>Brad Hooks</span>Design Lead</li>
+      	<li class="d_award">
+      		<ul>
+      			<li>Savannah College of Art and Design<br/>M.Arch<span>2008</span></li>
+      			<li>Savannah College of Art and Design<br/>M.Arch<span>2008</span></li>
+      			<li>Savannah College of Art and Design<br/>M.Arch<span>2008</span></li>
+      		</ul>
+      	</li>
+      	<li class="d_experience">
+      		<ul>
+      			<li>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">Volunteer Designer</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">GoDesign</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">Savannah, USA</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">2012-Current</span>
+      			</li>
+      			<li>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">Volunteer Designer</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">GoDesign</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">Savannah, USA</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">2012-Current</span>
+      			</li>
+      			<li>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">Volunteer Designer</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">GoDesign</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">Savannah, USA</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">2012-Current</span>
+      			</li>
+      			<li>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">Volunteer Designer</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">GoDesign</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">Savannah, USA</span>
+      				<span class="col-md-3 col-xs-6 bootstrap_default">2012-Current</span>
+      			</li>
+      		</ul>
+      	</li>
+      </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--END LIGHTBOX-->
+
+</body>
+</html>

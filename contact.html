@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html debug="ture" lang="zh_tw">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="。">
+<meta name="keywords" content="">
+<title>Inovative Collective</title>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript">var console = { log: function() {} };</script>
+<![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/lightcase.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scrolloverflow.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<!-- <script type="text/javascript" src="js/examples.js"></script> -->
+<script type="text/javascript" src="js/custom.js"></script>
+<link rel="shortcut icon" href="favicon.ico">
+
+<script>
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		anchors: ['Contact', 'Footer'],
+		sectionsColor: ['#fff', '#f2efda'],
+		scrollOverflow:true,
+		responsiveWidth: 900,
+		afterResponsive: function(isResponsive){
+		}
+	});
+});
+//adding the actions to the buttons
+$(document).on("click", "#menu", function(){
+  $.fn.fullpage.setAllowScrolling(false);
+});
+$(document).on("click", "#menuon", function(){
+  $.fn.fullpage.setAllowScrolling(true);
+});
+</script>
+</head>
+
+<body>
+<!-- WRAPPER -->
+	<div class="logo"><h1><a href="index.html">INCO</a></h1></div>
+	<div class="lan"><a href="javascript:;">繁中</a></div>
+	<div id="menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<nav>
+		<ul class="container container_conatct">
+			<div id="menuon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<li class="nav_left col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<div class="logo"><h1><a href="javascript:;">INCO</a></h1></div>
+					<li class="nav_name">in-co<span class="nav_sns">ig:inco.studio</span></li>
+					<li class="nav_info">O. 886 2 2562 7402
+						<br/>W. in-co.studio
+						<br/>A. 10441 台北市中山區中山北路一段 135 巷 36 號 3 樓
+					</li>
+					<li class="nav_email">
+						<input type="text" placeholder="Your Email"><button type="btn">subscribe</button>
+					</li>
+				</li>
+				</ul>
+			</li>
+			<li class="nav_right col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<li><a href="about.html"><span>WHY / WHAT / WHO</span></a></li>
+					<li><a href="project.html"><span>PROJECTS</span></a></li>
+					<li><a href="contact.html"><span>CONTACT</span></a></li>
+				</ul>
+			</li>
+		</ul>
+		<footer>
+			EN | 繁中<br/>
+			2018 in-co copyright
+		</footer>
+	</nav>
+
+<div id="fullpage">
+
+	<!-- SECTION01 -->
+	<div class="section" id="section0">
+		<div class="container">
+			<div class="title">Contact</div>
+			<p class="contact_des">Let's be crazy together!</p>
+			<ul class="contact_list col-md-8 col-xs-12 bootstrap_default">
+				<li>O. +886 2 2562-7402</li>
+				<li>W. in-co.studio</li>
+				<li>E. hi@in-co.studio</li>
+				<li>A. 台北市中山區中山北路一段135巷36號3樓</li>
+				<li><input class="contact_email" type="text" name="" placeholder="Email Address"></li>
+				<li><input class="contact_textarea" type="textarea" name="" placeholder="Let's have a disscussion !"></li>
+				<li><a href="javascript:;"><span>SUBMIT</span></a></li>
+			</ul>
+		</div>
+		<div class="container_contact col-md-8 col-xs-12 bootstrap_default"></div>
+		<iframe class="contact_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4934184229032!2d121.52225361450637!3d25.051260183964345!z2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a96f493bde41%3A0x4261e980b8d3789a!2zMTA0OTHlj7DngaPlj7DljJfluILkuK3lsbHljYDkuK3lsbHljJfot6_kuIDmrrUxMzXlt7czNuiZnw!5e0!3m2!1szh-TW!2smy!4v1519796621513" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<!--END SECTION01-->
+
+	<!-- SECTION02 -->
+	<div class="section" id="section1">
+		<ul class="container">
+			<li class="nav_left col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<li class="nav_name">in-co<span class="nav_sns"><a href="https://www.instagram.com/inco.studio/ ">ig:inco.studio</a></span></li>
+					<li class="nav_info">O. 886 2 2562 7402
+						<br/>W. in-co.studio
+						<br/>A. 10441 台北市中山區中山北路一段 135 巷 36 號 3 樓
+					</li>
+					<li class="nav_email">
+						<input type="text" placeholder="Your Email"><button type="btn">subscribe</button>
+					</li>
+				</li>
+				</ul>
+			</li>
+			<li class="nav_right col-md-6 col-xs-12 bootstrap_default">
+				<ul>
+					<li><a href="about.html"><span>WHY / WHAT / WHO</span></a></li>
+					<li><a href="project.html"><span>PROJECTS</span></a></li>
+					<li><a href="contact.html"><span>CONTACT</span></a></li>
+				</ul>
+			</li>
+		</ul>
+		<footer>
+			EN | 繁中<br/>
+			2018 in-co copyright
+		</footer>
+	</div>
+	<!--END SECTION02-->
+</div>
+<!--END WRAPPWE-->
+
+</body>
+</html>
